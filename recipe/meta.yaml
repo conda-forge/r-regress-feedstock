@@ -28,7 +28,7 @@ test:
   commands:
     - $R -e "library('regress')"           # [not win]
     - "\"%R%\" -e \"library('regress')\""  # [win]
-    
+
 about:
   home: https://cran.r-project.org/web/packages/regress/index.html
   license: GPL-2.0-or-later
