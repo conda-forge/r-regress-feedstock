@@ -1,4 +1,4 @@
-{% set version = "1.3-21" %}
+{% set version = "1.3-22" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/regress_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/regress/regress_{{ version }}.tar.gz
-  sha256: 7fbd2d9d4759ef90c7582c4037814c014180c1326fb0ba9b8b0964f07c0b6e56
+  sha256: dc8be9201b667080facebf9d42ee1d0974d3fe5a6d0daa744fbc9c098281422c
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
